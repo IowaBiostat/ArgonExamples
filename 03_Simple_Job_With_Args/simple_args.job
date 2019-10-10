@@ -1,0 +1,5 @@
+#!/bin/bash
+module load R
+Rscript simpleJobArgs.R $1
+# Alternative syntax with R CMD BATCH:
+# R CMD BATCH simpleJobArgs.R --no-save --no-restore '--args $1'

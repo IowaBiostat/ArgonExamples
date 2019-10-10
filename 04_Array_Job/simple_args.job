@@ -1,0 +1,3 @@
+#!/bin/bash
+module load R
+Rscript simpleJobArgs.R $SGE_TASK_ID
