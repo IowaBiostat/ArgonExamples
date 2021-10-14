@@ -1,5 +1,6 @@
 #!/bin/bash
-module load R
-Rscript simpleJobArgs.R $1
+# Uncomment the following line if you don't have R set up manually
+#module load R
+Rscript simpleJobArgs.R --output=$1
 # Alternative syntax with R CMD BATCH:
 # R CMD BATCH simpleJobArgs.R --no-save --no-restore '--args $1'
