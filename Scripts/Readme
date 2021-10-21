@@ -1,0 +1,11 @@
+Before using the install scripts in this folder, back up and then delete your ~/.bash_profile file
+
+Contents
+=============
+1. "build_r_on_node.sh": program to compile R using a cluster node. 
+2. "add_R_to_bash_profile.sh": adds the compiled version of R to your bash profile. Log out and back into the Argon system to have the latest R available. 
+3. "get_julia.sh": downloads Julia and links it in your bash profile. Log out and back into the Argon system to have Julia available. 
+4. "sge_interface.R": This program is an example of how you can interact with the HPC system from scripts in your language of choice. This could be used to build potentially very complex parallel workflows without any further dependencies. 
+
+
+After running the programs in this folder, your .bash_profile may have duplicate entries, and in any case it may require further customization for your needs. These scripts are intended to give you a working starting point. 
