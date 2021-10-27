@@ -19,5 +19,5 @@ get_jobs <- function(uid){
                            queue =  job_rslt$queue_info[[i]]$queue_name,
                            slots =  job_rslt$queue_info[[i]]$slots)
 	})))
-    
+    }    
 }
