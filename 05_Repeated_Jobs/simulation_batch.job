@@ -1,0 +1,4 @@
+#!/bin/bash
+Rscript simulation_batch.R --seed=$1
+
+
