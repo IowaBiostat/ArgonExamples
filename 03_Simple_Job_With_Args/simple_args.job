@@ -1,6 +1,11 @@
 #!/bin/bash
-# Uncomment the following line if you don't have R set up manually
-#module load R
+
+# If the user hasn't installed R, load it from the module
+if ! command -v R &> /dev/null
+then 
+    module load R
+fi
+
 Rscript simpleJobArgs.R --output=$1
 # Alternative syntax with R CMD BATCH:
 # R CMD BATCH simpleJobArgs.R --no-save --no-restore '--args $1'

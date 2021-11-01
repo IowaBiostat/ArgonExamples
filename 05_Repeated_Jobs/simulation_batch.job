@@ -1,4 +1,10 @@
 #!/bin/bash
+# If the user hasn't installed R, load it from the module
+if ! command -v R &> /dev/null
+then 
+    module load R
+fi
+
 Rscript simulation_batch.R --seed=$1
 
 

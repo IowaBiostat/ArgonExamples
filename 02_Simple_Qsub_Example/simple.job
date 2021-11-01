@@ -1,3 +1,7 @@
 #!/bin/bash
-module load R
+# If the user hasn't installed R, load it from the module
+if ! command -v R &> /dev/null
+then 
+    module load R
+fi
 R CMD BATCH simpleJob.R
