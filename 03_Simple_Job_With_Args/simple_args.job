@@ -6,6 +6,6 @@ then
     module load R
 fi
 
-Rscript simpleJobArgs.R --output=$1
+Rscript simple_job_args.R --output=$1
 # Alternative syntax with R CMD BATCH:
 # R CMD BATCH simpleJobArgs.R --no-save --no-restore '--args $1'

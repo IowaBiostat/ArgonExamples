@@ -4,4 +4,4 @@ if ! command -v R &> /dev/null
 then 
     module load R
 fi
-R CMD BATCH simpleJob.R
+R CMD BATCH simple_job.R

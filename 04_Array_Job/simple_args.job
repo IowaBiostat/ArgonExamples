@@ -6,4 +6,4 @@ then
     module load R
 fi
 
-Rscript simpleJobArgs.R $SGE_TASK_ID
+Rscript simple_job_args.R $SGE_TASK_ID
