@@ -1,5 +1,5 @@
 #!/bin/bash
-RVERS=R-4.1.1
+RVERS=R-4.2.0
 # Download the current version of R
 wget https://cran.r-project.org/src/base/R-4/$RVERS.tar.gz
 
