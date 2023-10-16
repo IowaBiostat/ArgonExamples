@@ -8,6 +8,6 @@ CWD=$(pwd)
 touch ~/.bash_profile
 # Update path
 echo "PATH=\$PATH:$CWD/$JVERS/bin" >>  ~/.bash_profile
-echo 'module load stack/2022.2' >> ~/.bash_profile
+echo 'module load stack/2021.1' >> ~/.bash_profile
 echo 'export PATH' >> ~/.bash_profile
 
