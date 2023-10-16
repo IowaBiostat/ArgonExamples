@@ -1,6 +1,6 @@
 #!/bin/bash
 # Set R version
-RVERS=R-4.3.0
+RVERS=R-4.3.1
 CWD=$(pwd)
 # Ensure bash profile exists
 touch ~/.bash_profile
